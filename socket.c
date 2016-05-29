@@ -97,7 +97,7 @@ if (buf_len > 0)
 
 {
 printf("Received message - ");
-send(client_socket, buf , sizeof(temp), 0);
+send(client_socket, buf , sizeof(buf), 0);
 memset(buf,0,sizeof(buf));
 }
 
